@@ -32,7 +32,7 @@ function Photos() {
     return <PhotosCard key={ob.id} url={ob.url} />;
   });
 
-  return <div className="border-0">{content} </div>;
+  return <div>{content} </div>;
 }
 
 export default Photos;

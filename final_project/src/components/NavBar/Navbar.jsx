@@ -17,11 +17,6 @@ function Navbar() {
               Images
             </NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/blog">
-              Blog
-            </NavLink>
-          </li>
         </ul>
       </div>
     </nav>
