@@ -5,6 +5,7 @@ import auth from "../../components/context/auth";
 function ImageInfo(props) {
   return (
     <div className="row p-4 flex-column">
+      <Photos />
       <button
         className="btn btn-primary btn-lg"
         onClick={() => {
@@ -15,7 +16,6 @@ function ImageInfo(props) {
       >
         Logout
       </button>
-      <Photos />
     </div>
   );
 }
